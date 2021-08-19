@@ -1,0 +1,20 @@
+git init = inicia una carpeta de seguimiento.
+git status= estado del seguimiento.
+git add . = guarda los cambios.
+git commit -m "mensaje" = prepara los archivos guardados para subirlos.
+git branch -m main = prepara los archivos para ser subidos.
+git remote add origin +[HTTP] = conecta con el repocitorio de github con un estro proyecto.
+git push -u origin main = sube los archivos de nuestro proyecto
+//git push origin master = sube los archivos
+git clone +[HTTP] = clona archivos de la nube
+git log = historial de commit
+git remote -v = verifica si se conecto local y nube.
+git pull origin master= baja los cambios nuevo del repocitorio remoto(github).
+**cambiar o poner informacion **
+git config --global user.name = cambiar o poner informacion.
+git config --global user.email = cambiar o poner correo.
+**cambiar HTTP de github**
+git remote set-url origin = es para cambiar el url en caso que te equivoques.
+// 'Q' para salir de un comando,
+***Archivo para ignorar otro Archivos***
+.gitignore = los nombres de los archivos que se encuentre aqui no podran ser subido a github.

@@ -1,0 +1,15 @@
+**como comensar en un proyect local**
+si ya instalamos 
+npm init -y
+npm i express
+npm i nodemon -g = solo se instala una sola ves con el "-g" es global.
+                   sirve para remplasar el node y ademas se actualiza el los cambios.
+para activar nodemon pones = "nodemon app.js"
+
+
+**//si tenes algun problema con el inicio de nodemon pones "npx nodemon app".\\**
+
+
+**la diferencia de entre join y resolve.**
+join te devuelbe la ruta exactamente como lo diste(join junta toda la ruta completa).
+En cambio resolve busca la primera ruta que encuentre de izquierda a derecha,(la primera ruta que pueda armar es la que arma resolve)
